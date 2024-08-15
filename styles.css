@@ -103,6 +103,12 @@ background-color: #2196f3;
 background-color: #1178cd;
 
 }
+.nikhil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 input{
 
     border-radius: 5px;
