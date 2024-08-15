@@ -27,6 +27,11 @@ h1{
 
     color: #2196f3;
     font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 header h1{
