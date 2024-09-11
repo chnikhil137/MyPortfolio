@@ -1,148 +1,129 @@
 *{
 
-font-family: monospace;
-
-}
-body{
-
-    margin: 0;
-    font-size: 15px;
-    background-color: #f0f8ff;
-
-}
-
-header{
-
-    height: 100vh;
-    background-color:  #2196f3;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-h1{
-
-    color: #2196f3;
-    font-size: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-header h1{
- 
-    text-align: center;
-    color: white;
-}
-.button{
-
+    font-family: monospace;
+    
+    }
+    body{
+    
+        margin: 0;
+        font-size: 15px;
+        background-color: #f0f8ff;
+    
+    }
+    
+    header{
+    
+        height: 100vh;
+        background-color: orange;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    h1{
+    
+        color: #2196f3;
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    header h1{
+     
+        text-align: center;
+        color: white;
+    }
+    .button{
+    
+        height: 40px;
+        width: 140px;
+        border: none; 
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 10px;
+      
+    }
+    .button:hover{
+    
+        color: white;
+        background-color: black;
+    
+    }
+    img{
+    
+    height: 200px;
+    
+    }
+    main{
+    
+        padding: 20px;
+    
+    }
+    section{
+    
+        height: 100vh;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
+    
+    }
+    a{
+    
+        text-decoration: none;
+    }
+    section div p{
+    
+        text-align: left;
+    }
+   
+    form div{
+        margin: 5px 0;
+    }
+    .submit{
+    
     height: 40px;
     width: 140px;
-    border: none; 
     border-radius: 20px;
-    cursor: pointer;
-    margin: 10px;
-  
-}
-.button:hover{
-
-    color: white;
-    background-color: black;
-
-}
-img{
-
-height: 200px;
-
-}
-main{
-
-    padding: 20px;
-
-}
-section{
-
-    height: 100vh;
-    border: 1px solid gray;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 6px;
-
-}
-a{
-
-    text-decoration: none;
-}
-section div p{
-
-    text-align: left;
-}
-ol li{
-
-    font-size: 20px;
-}
-form div{
-    margin: 5px 0;
-}
-.submit{
-
-height: 40px;
-width: 140px;
-border-radius: 20px;
-border: none;
-cursor: pointer;
-color: white;
-background-color: #2196f3;
-
-}.submit:hover{
-
-background-color: #1178cd;
-
-}
-.nikhil {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-input{
-
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    height: 25px;
-}
-.top{
-
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    height: 70px;
-    width: 70px;
     border: none;
-    border-radius: 50%;
     cursor: pointer;
     color: white;
     background-color: #2196f3;
     
-
-}
-footer{
-
-    height: 124px;
-    background-color: black;
-    color: lightgrey;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
+    }.submit:hover{
+    
+    background-color: #1178cd;
+    
+    }
+    input{
+    
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        height: 25px;
+    }
+    .top{
+    
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        height: 70px;
+        width: 70px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        
+    
+    }
+   
